@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000
 
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Hola!, si deseas ver los datos de las ciudades entra a: https://mi-aerolinea-api.herokuapp.com/cities')
 })
 
 app.listen(port, () => {
